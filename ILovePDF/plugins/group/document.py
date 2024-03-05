@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/group/document.py"
 
@@ -19,7 +19,7 @@ from configs.db import invite_link, myID, BANNED_USR_DB
 @ILovePDF.on_message(
     filters.group
     & filters.incoming
-    & filters.command(["analyse", "check", "nabilanavab"])
+    & filters.command(["analyse", "check", "edenwaters12"])
 )
 async def gDOC(bot, message):
     try:

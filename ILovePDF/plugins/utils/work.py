@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/utils/work.py"
 
@@ -19,19 +19,19 @@ async def work(
     """
     if mtype:
         if message.chat.type == enums.ChatType.PRIVATE:
-            path = f"work/nabilanavab/{message.chat.id}"
+            path = f"work/edenwaters12/{message.chat.id}"
         else:
-            pat = f"work/nabilanavab/{message.chat.id}"
-            path = f"work/nabilanavab/{message.chat.id}/{message.from_user.id}"
+            pat = f"work/edenwaters12/{message.chat.id}"
+            path = f"work/edenwaters12/{message.chat.id}/{message.from_user.id}"
     else:
         if message.message is None:
             # inline query download cant get message from callback
-            path = f"work/nabilanavab/inline{message.data.split('|')[2]}"
+            path = f"work/edenwaters12/inline{message.data.split('|')[2]}"
         elif message.message.chat.type == enums.ChatType.PRIVATE:
-            path = f"work/nabilanavab/{message.message.chat.id}"
+            path = f"work/edenwaters12/{message.message.chat.id}"
         else:
-            pat = f"work/nabilanavab/{message.message.chat.id}"
-            path = f"work/nabilanavab/{message.message.chat.id}/{message.message.from_user.id}"
+            pat = f"work/edenwaters12/{message.message.chat.id}"
+            path = f"work/edenwaters12/{message.message.chat.id}/{message.message.from_user.id}"
     if work == "create":
         if os.path.exists(path):
             return False  # False if work exists

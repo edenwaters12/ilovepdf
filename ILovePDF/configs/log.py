@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/configs/log.py"
 
@@ -22,11 +22,11 @@ class log:
 
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", False)  # Log Channel (Optional)
 
-    LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
+    LOG_FILE = os.environ.get("LOG_FILE", False)  # "edenwaters12.log"
 
-    LOG_TEXT = "#newUser @nabilanavab/ILovePDF\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT = "#newUser @edenwaters12/ILovePDF\n\nID: `{}`\nView Profile: {}"
 
-    LOG_TEXT_C = "#newChat @nabilanavab/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C = "#newChat @edenwaters12/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -114,7 +114,7 @@ class log:
                         InlineKeyboardButton("✅ B@N USER ✅", callback_data=f"banU|{file.chat.id}")
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @edenwaters12/ILovePDF
 #{myID[0].username}
 
 __chat type:__ `private 👤`
@@ -130,7 +130,7 @@ __user ID:__ `{file.chat.id}`
                         InlineKeyboardButton("✅ B@N CHAT ✅", callback_data=f"banC|{file.chat.id}")
                     ],]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile @edenwaters12/ILovePDF
 #{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`

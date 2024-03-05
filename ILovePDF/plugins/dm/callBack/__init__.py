@@ -1,13 +1,13 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/callBack/__init__.py"
 
-__author__ = "nabilanavab"
-__email__ = "nabilanavab@gmail.com"
-__telegram__ = "telegram.dog/nabilanavab"
-__copyright__ = "Copyright 2021, nabilanavab"
+__author__ = "edenwaters12"
+__email__ = "edenwaters12@gmail.com"
+__telegram__ = "telegram.dog/edenwaters12"
+__copyright__ = "Copyright 2021, edenwaters12"
 
 
 iLovePDF = '''
@@ -16,8 +16,8 @@ iLovePDF = '''
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
                          ❤ [Nabil A Navab] 
-                         ❤ Email: nabilanavab@gmail.com
-                         ❤ Telegram: @nabilanavab
+                         ❤ Email: edenwaters12@gmail.com
+                         ❤ Telegram: @edenwaters12
 '''
 
 # If you have any questions or suggestions, please feel free to reach out.

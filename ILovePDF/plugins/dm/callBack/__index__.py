@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/callBack/__index__.py"
 
@@ -48,7 +48,7 @@ async def __index__(bot, callbackQuery):
                 return await callbackQuery.answer(CHUNK["largeNo"])
 
         elif data == "ocr":
-            if ocrPDF.nabilanavab:  # Never Work OCR if nabilanavab==True
+            if ocrPDF.edenwaters12:  # Never Work OCR if edenwaters12==True
                 return await callbackQuery.answer(
                     CHUNK["ocrError"]
                 )  # Deploy From Docker Files (else OCR never works)

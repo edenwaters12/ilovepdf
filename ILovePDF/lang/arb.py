@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/lang/eng.py"
 
@@ -262,24 +262,24 @@ HOME = {
 HomeG = { "HomeACB" : { _LANGUAGE : "set|lang", _HELP : "Home|C", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 SETTINGS = {
-    "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
-    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
+    "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "edenwaters12" },
+    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "edenwaters12"}, "askApi" : _ASK_API,
     "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
-    "thumb" : [{ _SET_THUMB : "nabilanavab", _ADD : "set|thumb+", _BACK_HOME : "Home|B"},
-               { _SET_THUMB : "nabilanavab", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
-    "fname" : [{ _SET_NAME : "nabilanavab", _ADD : "set|fname+", _BACK_HOME : "Home|B2S"},
-               {_SET_NAME : "nabilanavab", _CHANGE : "set|fname+", _DELETE : "set|fname-", _BACK_HOME : "Home|B2S"}],
-    "api" : [{ _SET_API : "nabilanavab", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
-             { _SET_API : "nabilanavab", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
-    "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
-              { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
+    "thumb" : [{ _SET_THUMB : "edenwaters12", _ADD : "set|thumb+", _BACK_HOME : "Home|B"},
+               { _SET_THUMB : "edenwaters12", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
+    "fname" : [{ _SET_NAME : "edenwaters12", _ADD : "set|fname+", _BACK_HOME : "Home|B2S"},
+               {_SET_NAME : "edenwaters12", _CHANGE : "set|fname+", _DELETE : "set|fname-", _BACK_HOME : "Home|B2S"}],
+    "api" : [{ _SET_API : "edenwaters12", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
+             { _SET_API : "edenwaters12", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
+    "capt" : [{ _SET_CAPT : "edenwaters12", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
+              { _SET_CAPT : "edenwaters12", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START, "txt2pdf" : _TXT2PDF }
-COFFEE = "https://www.buymeacoffee.com/nabilanavab"
+COFFEE = "https://www.buymeacoffee.com/edenwaters12"
 STATUS_MSG = {
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "📶 STORAGE 📶" : "status|server", "🥥 DATABASE 🥥" : "status|db",
-        "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab", "💎 ADMIN 💎" : "status|admin", "👤 USERS 👤" : "status|users", _BACK_HOME : "Home|A"
+        "📊 ↓ SERVER ↓ 📊" : "edenwaters12", "📶 STORAGE 📶" : "status|server", "🥥 DATABASE 🥥" : "status|db",
+        "🌝 ↓ GET LIST ↓ 🌝": "edenwaters12", "💎 ADMIN 💎" : "status|admin", "👤 USERS 👤" : "status|users", _BACK_HOME : "Home|A"
     },
     "DB" : """📂 DATABASE :\n\n**◍ Database Users :** `{}` 📍\n**◍ Database Chats :** `{}` 📍""",
     "SERVER" : "**◍ Total Space     :** `{}`\n**◍ Used Space     :** `{}({}%)`\n**◍ Free Space      :** `{}`\n**◍ CPU Usage      :** `{}`%"
@@ -304,42 +304,42 @@ PDF_MESSAGE = {
         _ADD_PGNUM[1:] : "close|dev", _LESS : "pdf", _CLOSE : "close|all" },
     "error" : _CODEC, "errorCB" : { _CODEC_CB : "error", _CLOSE : "close|all" }, "encrypt" : _ENCRYTED_FILE,}
 BUTTONS = {
-    "format" : { _HELP : "nabilanavab|format", "1 × 1" : "#1-format", "✌ 1 × 2 ✌" : "#2-format-H", "✌ 2 × 1 ✌" : "#2-format-V",
+    "format" : { _HELP : "edenwaters12|format", "1 × 1" : "#1-format", "✌ 1 × 2 ✌" : "#2-format-H", "✌ 2 × 1 ✌" : "#2-format-V",
                  "🤟 1 × 3 🤟" : "#3-format-H", "🤟 3 × 1 🤟" : "#3-format-V", "2 × 2" : "#4-format", _BACK : "pdf" },
-    "filter" : { _HELP : "nabilanavab|format", _DRAW : "#draw", _BAW : "#baw", _SAT : "#sat", _INV : "#inv", _BACK : "pdf" },
-    "toImage" : { _P2IMG : "nabilanavab", _P2I : "pdf|img|img", _P2D : "pdf|img|doc", _P2Z : "pdf|img|zip", _P2T : "pdf|img|tar", _BACK : "pdf" },
-    "imgRange" : { _P2IMG_ : "nabilanavab", _ALL : "#p2img|{}A", _CUSTOM : "#p2img|{}C", _BACK : "pdf|img" },
-    "rotate" : { _B_ROTATE : "nabilanavab", "90°" : "#rot90", "180°" : "#rot180", "270°" : "#rot270", "360°" : "#rot360", _BACK : "pdf" },
-    "txt" : { _B_TEXT : "nabilanavab", _B_TEXT_M : "#textM", "🧾 TXT 🧾" : "#textT", "🌐 HTML 🌐" : "#textH", "🎀 JSON 🎀" : "#textJ", _BACK : "pdf" },
-    "type" : { _B_WATERMARK : "nabilanavab", _B_TEXT_T : "pdf|wa|txt", _IMAGE : "pdf|wa|img", _B_PDF : "pdf|wa|pdf", _BACK : "pdf" },
-    "op" : { _WATER_OP : "nabilanavab", "𝟙𝟘" : "pdf|wa|{}|o01", "𝟚𝟘" : "pdf|wa|{}|o02", "𝟛𝟘" : "pdf|wa|{}|o03", "𝟜𝟘" : "pdf|wa|{}|o04",
+    "filter" : { _HELP : "edenwaters12|format", _DRAW : "#draw", _BAW : "#baw", _SAT : "#sat", _INV : "#inv", _BACK : "pdf" },
+    "toImage" : { _P2IMG : "edenwaters12", _P2I : "pdf|img|img", _P2D : "pdf|img|doc", _P2Z : "pdf|img|zip", _P2T : "pdf|img|tar", _BACK : "pdf" },
+    "imgRange" : { _P2IMG_ : "edenwaters12", _ALL : "#p2img|{}A", _CUSTOM : "#p2img|{}C", _BACK : "pdf|img" },
+    "rotate" : { _B_ROTATE : "edenwaters12", "90°" : "#rot90", "180°" : "#rot180", "270°" : "#rot270", "360°" : "#rot360", _BACK : "pdf" },
+    "txt" : { _B_TEXT : "edenwaters12", _B_TEXT_M : "#textM", "🧾 TXT 🧾" : "#textT", "🌐 HTML 🌐" : "#textH", "🎀 JSON 🎀" : "#textJ", _BACK : "pdf" },
+    "type" : { _B_WATERMARK : "edenwaters12", _B_TEXT_T : "pdf|wa|txt", _IMAGE : "pdf|wa|img", _B_PDF : "pdf|wa|pdf", _BACK : "pdf" },
+    "op" : { _WATER_OP : "edenwaters12", "𝟙𝟘" : "pdf|wa|{}|o01", "𝟚𝟘" : "pdf|wa|{}|o02", "𝟛𝟘" : "pdf|wa|{}|o03", "𝟜𝟘" : "pdf|wa|{}|o04",
         "𝟝𝟘" : "pdf|wa|{}|o05", "𝟞𝟘" : "pdf|wa|{}|o06", "𝟟𝟘" : "pdf|wa|{}|o07", "𝟠𝟘" : "pdf|wa|{}|o08", "𝟡𝟘" : "pdf|wa|{}|o09",
         "𝟙𝟘𝟘" : "pdf|wa|{}|o10", _BACK : "pdf|wa" },
-    "po" : { _WATER_PO : "nabilanavab", _TOP : "wa|{0}|{1}|pT", _MIDDLE : "wa|{0}|{1}|pM", _BOTTOM : "wa|{0}|{1}|pB", _BACK : "pdf|wa|{0}" },
-    "poTXT" : { _WATER_PO : "nabilanavab", _TOP : "pdf|wa|{0}|{1}|pT", _MIDDLE : "pdf|wa|{0}|{1}|pM", _BOTTOM : "pdf|wa|{0}|{1}|pB", _BACK : "pdf|wa|{0}" },
-    "color" : { _WATER_COLOR : "nabilanavab", "᠎᠎᠎⚪️" : "#wa|{0}|{1}|{2}|W", "᠎⚫️" : "#wa|{0}|{1}|{2}|B", "᠎᠎🟤" : "#wa|{0}|{1}|{2}|C",
+    "po" : { _WATER_PO : "edenwaters12", _TOP : "wa|{0}|{1}|pT", _MIDDLE : "wa|{0}|{1}|pM", _BOTTOM : "wa|{0}|{1}|pB", _BACK : "pdf|wa|{0}" },
+    "poTXT" : { _WATER_PO : "edenwaters12", _TOP : "pdf|wa|{0}|{1}|pT", _MIDDLE : "pdf|wa|{0}|{1}|pM", _BOTTOM : "pdf|wa|{0}|{1}|pB", _BACK : "pdf|wa|{0}" },
+    "color" : { _WATER_COLOR : "edenwaters12", "᠎᠎᠎⚪️" : "#wa|{0}|{1}|{2}|W", "᠎⚫️" : "#wa|{0}|{1}|{2}|B", "᠎᠎🟤" : "#wa|{0}|{1}|{2}|C",
         "᠎🔴" : "#wa|{0}|{1}|{2}|R", "᠎᠎🟢" : "#wa|{0}|{1}|{2}|G", "🔵" : "#wa|{0}|{1}|{2}|N", "᠎᠎🟡" : "#wa|{0}|{1}|{2}|Y",
         "᠎᠎🟠" : "#wa|{0}|{1}|{2}|O", "🟣" : "#wa|{0}|{1}|{2}|V", _BACK : "pdf|wa|{0}|{1}" },
-    "stamp" : { _B_STAMP : "nabilanavab", "Not For Public Release 🤧" : "pdf|stp|10", "For Public Release 🥱" : "pdf|stp|8",
+    "stamp" : { _B_STAMP : "edenwaters12", "Not For Public Release 🤧" : "pdf|stp|10", "For Public Release 🥱" : "pdf|stp|8",
         "Confidential 🤫" : "pdf|stp|2", "Departmental 🤝" : "pdf|stp|3", "Experimental 🔬" : "pdf|stp|4", "Expired 🐀" : "pdf|stp|5",
         "Final 🔧" : "pdf|stp|6", "For Comment 🗯️" : "pdf|stp|7", "Not Approved 😒" : "pdf|stp|9", "Approved 🥳" : "pdf|stp|0",
         "Sold ✊" : "pdf|stp|11", "Top Secret 😷" : "pdf|stp|12", "Draft 👀" : "pdf|stp|13", "AsIs 🤏" : "pdf|stp|1", _BACK : "pdf"},
-    "stampA" : { _STAMP_COLOR : "nabilanavab", "Red ❤️" : "#spP|{}|r", "Blue 💙" : "#spP|{}|b", "Green 💚" : "#spP|{}|g", "Yellow 💛" : "#spP|{}|c1",
+    "stampA" : { _STAMP_COLOR : "edenwaters12", "Red ❤️" : "#spP|{}|r", "Blue 💙" : "#spP|{}|b", "Green 💚" : "#spP|{}|g", "Yellow 💛" : "#spP|{}|c1",
         "Pink 💜" : "#spP|{}|c2", "Hue 💚" : "#spP|{}|c3", "White 🤍" : "#spP|{}|c4", "Black 🖤" : "#spP|{}|c5", _BACK : "pdf|stp" }}
-PROGRESS = {"progress" : _PROGRESS , "upFileCB" : {f"📤 .. {_UPLOADING} .. 📤" : "nabilanavab"}, "cbPRO_D" : ["📤 {:.2f}% 📤", _CANCEL], "cbPRO_U" : ["📤 {:.2f}% 📤", _CANCEL]}
-GENERATE = {"noQueue" : _NO_QUEUE, "noImages" : _NO_IMG, "currDL" : _DL_IMG, "geting" : _GEN_PDF, "getFileNm" : _REN_PDF, "deleteQueue" : _DLT_QUEUE, "getingCB" : {_GEN_CB : "nabilanavab"},}
+PROGRESS = {"progress" : _PROGRESS , "upFileCB" : {f"📤 .. {_UPLOADING} .. 📤" : "edenwaters12"}, "cbPRO_D" : ["📤 {:.2f}% 📤", _CANCEL], "cbPRO_U" : ["📤 {:.2f}% 📤", _CANCEL]}
+GENERATE = {"noQueue" : _NO_QUEUE, "noImages" : _NO_IMG, "currDL" : _DL_IMG, "geting" : _GEN_PDF, "getFileNm" : _REN_PDF, "deleteQueue" : _DLT_QUEUE, "getingCB" : {_GEN_CB : "edenwaters12"},}
 DOCUMENT = {
     "replyCB" : { _AIO : "aio" , _SINGLE_USE : "pdf", _CLOSE : "close|all" }, "_replyCB" : PDF_MESSAGE['pdf_button'],
     "reply" : PDF_MESSAGE['pdf'], "upFile" : _START_UPLOAD, "process" : _PROCESSING, "inWork" : _W_I_P, "big" : _BIG,
     "download" : _START_DOWNL, "refresh" : { _REFRESH : "{}" }, "dlImage" : _DL_IMG, "noAPI" : _NO_API, "error" : _ERROR,
     "takeTime" : _TAKE_TIME, "fromFile" : _CONVERT, "unsupport" : _UNSUPPORT, "cancelCB" : { _CANCEL : "close|me" }, "generate" : { _GENERATE : "generate" },
     "generateRN" : { _GENERATE : "generate", _RENAME : "generateREN" }, "setHdImg" : _HD, "setDefault" : { _BACK_DEFAULT : "close|hd" }, "useDOCKER" : _NOT_DOKR,
-    "bigCB" : { _BIG_SUPP : "https://github.com/nabilanavab/ilovepdf" }, "imageAdded" : _IMG_ADDED}
+    "bigCB" : { _BIG_SUPP : "https://github.com/edenwaters12/ilovepdf" }, "imageAdded" : _IMG_ADDED}
 AIO = {
     "true" : _TRUE, "false" : _FALSE, "aio" : _PASS_REQUIRED, "waitPASS" : _WAIT_TXT, "passMSG" : _AIO_QN,
-    "aio_button" : {_HELP :"nabilanavab|aioInput", _YES:"aioInput|enc", _NO :"aioInput|dec", _MOVE :"aioInput|dec" },
-    "out_button" : { _META : "nabilanavab|aio|met", _PREVIEW : "nabilanavab|aio|pre", _COMPRESS: "nabilanavab|aio|com", _B_TEXT_T : "nabilanavab|aio|txt", _ROTATE : "nabilanavab|aio|rot", _FORMAT : "nabilanavab|aio|for",
-        _ENCRYPT : "nabilanavab|aio|enc", _WATERMARK : "nabilanavab|aio|wat", _RENAME : "nabilanavab|aio|rnm", _BACK : "aio", _PROCEED : "processAIO" },
+    "aio_button" : {_HELP :"edenwaters12|aioInput", _YES:"aioInput|enc", _NO :"aioInput|dec", _MOVE :"aioInput|dec" },
+    "out_button" : { _META : "edenwaters12|aio|met", _PREVIEW : "edenwaters12|aio|pre", _COMPRESS: "edenwaters12|aio|com", _B_TEXT_T : "edenwaters12|aio|txt", _ROTATE : "edenwaters12|aio|rot", _FORMAT : "edenwaters12|aio|for",
+        _ENCRYPT : "edenwaters12|aio|enc", _WATERMARK : "edenwaters12|aio|wat", _RENAME : "edenwaters12|aio|rnm", _BACK : "aio", _PROCEED : "processAIO" },
     "out_values": ["aio|met|{F}", "aio|pre|{F}", "aio|com|{F}", "aio|txt|{F}", "aio|rot|{F}", "aio|for|{F}", "aio|enc|{F}", "aio|wat|{F}", "aio|rnm|{F}" ]}
 gDOCUMENT = { "admin" : _ADMIN_ONLY, "notDOC" : _NOT_DOC, "Gadmin" : _G_ADMIN, "adminO" : _NOT_YOUR }
 gDOCUMENT.update(DOCUMENT)
@@ -348,8 +348,8 @@ URL = {
     "notPDF" : _CODEC, "close" : { _CLOSE : "close|all" }, "get" : { _GET_TG_PDF : "getFile"}, "error" : _ERROR, "view" : _VIEW_ONLY,
     "done" : _DONE, "_error_" : _TEXT_REPLY, "openCB" : {_OPEN_BROW : "{}"}, "_error" : _ERROR,"_get" : _TG_PDF }
 getFILE = {
-    "wait" : _CHECK, "inWork" : DOCUMENT['inWork'], "big" : _BIG, "dl" : {f"📥 ..{_DOWNLOADING}.. 📥" : "nabilanavab"},
-    "up" : {f"📤 ..{_UPLOADING}..  📤" : "nabilanavab"}, "complete" : { _COMPLETED : f"{str(settings.SOURCE_CODE)}"}}
+    "wait" : _CHECK, "inWork" : DOCUMENT['inWork'], "big" : _BIG, "dl" : {f"📥 ..{_DOWNLOADING}.. 📥" : "edenwaters12"},
+    "up" : {f"📤 ..{_UPLOADING}..  📤" : "edenwaters12"}, "complete" : { _COMPLETED : f"{str(settings.SOURCE_CODE)}"}}
 cbAns = [_NOT_DEV, _STILL_ERROR, _CANCELED, _NOT_ENCRYPT, _NOTHING_OFF , _COMPLETED ]
 LINK = {
     "gen" : _GENERATING, "no" : _UNKNOWN_ERROR, "notify" : _NOTIFY, "_gen" : _URL_PROCES, "type" : _URL_TYPE,
@@ -366,17 +366,17 @@ INDEX = {
     "watermark_img" : _WATERMARK_IMG, "adding_wa" : _ADD_WATERMARK, "readAgain" : _READ_AGAIN, "zipTAR" : _ZIP_CONVERT, "aio" : _AIO_PROCESS,}
 INLINE = {
     "search" : _SEARCH, "openBot" : _OPEN_BOT, 'query' : _TOTAL, 'lang_t' : _SET_LANG, "lang_d" : _LANG, 'caption' : _INLINE_CAP,
-    "lang_b" : { _SELECT_LANG : "nabilanavab" }, 'sear_t' : _SEARCH_PDF, 'sear_d' : _SEARCH_DES, 'noDB' : '🏃‍♂️🏃‍♂️', 'refer_t' : _REFER_T,
+    "lang_b" : { _SELECT_LANG : "edenwaters12" }, 'sear_t' : _SEARCH_PDF, 'sear_d' : _SEARCH_DES, 'noDB' : '🏃‍♂️🏃‍♂️', 'refer_t' : _REFER_T,
     'min' : _MIN_SEARCH, 'process' : _PROCESSING, 'nothing' : _NO_RESULT, "select" : _GET_PDF, 'description' : _INLINE_DES,
     'cbNotU' : BAN['cbNotU'], 'old' : _OLD_QUEUE, 'inWork' : _W_I_P, 'edit' : [_GET_PDF, _SEARCH_PDF, _OPEN_BOT], 'refer_d' : _REFER_D,}
 BETA = {"cant": _CANT_USE, 'refer': _REFER, 'nowbeta': _NOW_BETA, 'nownotbeta': _NOW_NOT_BETA }
 pdf2TXT = {
     "upload" : DOCUMENT['upFile'], "exit" : _EXIT, "nothing" : _NOTHING, "TEXT" : _TEXT2PDF, "start" : _TEXT2PDF_S,  "askC" : _TEXT2PDF_P,
-    "fifteen" : { "{}" : "nabilanavab", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", "7" : "{}|7",
+    "fifteen" : { "{}" : "edenwaters12", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", "7" : "{}|7",
     "8" : "{}|8", "9" : "{}|9", "10" : "{}|10","11" : "{}|11", "12" : "{}|12", "13" : "{}|13", "14" : "{}|14", "15" : "{}|15", 
-    _USE_DEFAULT : "{}|_"}, "askT" : _TEXT2PDF_T, "size_btn" : {_SELECT_SCALE : "nabilanavab", "1" : "t2p|1", "2" : "t2p|2", _CLOSE : "close|me"},
-    "six_" : { "{}" : "nabilanavab", "1" : "{}|1:", "2" : "{}|2:", "3" : "{}|3:", "4" : "{}|4:", "5" : "{}|5:", "+" : "{}|6:", _USE_DEFAULT : "{}|_:"},
-    "six" : { "{}" : "nabilanavab", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", _USE_DEFAULT : "{}|_"},
+    _USE_DEFAULT : "{}|_"}, "askT" : _TEXT2PDF_T, "size_btn" : {_SELECT_SCALE : "edenwaters12", "1" : "t2p|1", "2" : "t2p|2", _CLOSE : "close|me"},
+    "six_" : { "{}" : "edenwaters12", "1" : "{}|1:", "2" : "{}|2:", "3" : "{}|3:", "4" : "{}|4:", "5" : "{}|5:", "+" : "{}|6:", _USE_DEFAULT : "{}|_:"},
+    "six" : { "{}" : "edenwaters12", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", _USE_DEFAULT : "{}|_"},
     "error" : _ERROR }
 HELP = {}
 

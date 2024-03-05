@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/__main__.py"
 
@@ -11,8 +11,8 @@ iLovePDF = '''
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
                          ❤ [Nabil A Navab] 
-                         ❤ Email: nabilanavab@gmail.com
-                         ❤ Telegram: @nabilanavab
+                         ❤ Email: edenwaters12@gmail.com
+                         ❤ Telegram: @edenwaters12
 '''
 
 
@@ -137,7 +137,7 @@ class Bot(ILovePDF):
             f"❤ BOT ID: {myID[0].id}\n"
             f"❤ BOT FILENAME: {myID[0].first_name}\n"
             f"❤ BOT USERNAME: {myID[0].username}\n\n"
-            f"❤ SOURCE-CODE By: @nabilanavab 👑\n"
+            f"❤ SOURCE-CODE By: @edenwaters12 👑\n"
             f"❤ BOT CHANNEL: t.me/iLovePDF_bot\n\n"
             f"{iLovePDF}"
         )
@@ -199,16 +199,16 @@ class Bot(ILovePDF):
 
 
 if __name__ == "__main__":
-    if os.path.exists(f"{os.path.abspath(os.getcwd())}/work/nabilanavab"):
-        for chat in os.listdir("work/nabilanavab"):
+    if os.path.exists(f"{os.path.abspath(os.getcwd())}/work/edenwaters12"):
+        for chat in os.listdir("work/edenwaters12"):
             if f"{chat}".startswith("-100"):
                 works["g"].append(
-                    [chat, [user for user in os.listdir(f"work/nabilanavab/{chat}")]]
+                    [chat, [user for user in os.listdir(f"work/edenwaters12/{chat}")]]
                 )
             else:
                 works["u"].append(chat)
         shutil.rmtree(f"{os.path.abspath(os.getcwd())}/work")
-    os.makedirs("work/nabilanavab")
+    os.makedirs("work/edenwaters12")
 
     app = Bot()
     app.run()

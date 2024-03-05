@@ -1,7 +1,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Telegram Pdf Bot">
-  <meta name="keywords" content="Telegram, pdf, bot, pdfbot, ilovepdf, nabilanavab">
+  <meta name="keywords" content="Telegram, pdf, bot, pdfbot, ilovepdf, edenwaters12">
   <meta name="author" content="Nabil A Navab">
 </head>
 
@@ -18,15 +18,15 @@
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
                                        [Nabil A Navab] 
-                                       Email: nabilanavab@gmail.com
-                                       Telegram: @nabilanavab
+                                       Email: edenwaters12@gmail.com
+                                       Telegram: @edenwaters12
 ```
 
 <div align="center">
 
 # Enjoy the API
 
-![nabilanavab-ilovepdf](https://user-images.githubusercontent.com/92616583/211420759-735a72ff-9a0f-4c03-8633-037d5e862ff6.jpg)
+![edenwaters12-ilovepdf](https://user-images.githubusercontent.com/92616583/211420759-735a72ff-9a0f-4c03-8633-037d5e862ff6.jpg)
 
 <i>ilovePDF is an, easy-to-use open-source Telegram PDF bot fully written in python language 🐍</i>
 <br><br>
@@ -50,7 +50,7 @@ it was specially developed for creating PDF's from images.. And Now, Bot Support
     </ul>
 </b></ul>
 
-<i>If you have any other questions or need further assistance, you can simply <a href="https://telegram.dog/nabilanavab">contact nabilanavab</a> for help.</i>
+<i>If you have any other questions or need further assistance, you can simply <a href="https://telegram.dog/edenwaters12">contact edenwaters12</a> for help.</i>
 
 <h1>Does bot support image to PDF conversion.?</h1>
 <h3>Yes, it is possible to convert images to PDF. The bot was originally developed for this purpose, and other features were added over time.</h3>

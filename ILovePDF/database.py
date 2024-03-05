@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/database.py"
 
@@ -139,7 +139,7 @@ class Database:
         return (await self.db.command("dbstats"))["dataSize"]
 
 if dataBASE.MONGODB_URI:
-    db = Database(dataBASE.MONGODB_URI, "nabilanavab-iLovePDF")
+    db = Database(dataBASE.MONGODB_URI, "edenwaters12-iLovePDF")
 
 # If you have any questions or suggestions, please feel free to reach out.
 # Together, we can make this project even better, Happy coding!  XD

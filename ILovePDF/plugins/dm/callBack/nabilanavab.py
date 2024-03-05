@@ -1,17 +1,17 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
-file_name = "ILovePDF/plugins/dm/callBack/nabilanavab.py"
+file_name = "ILovePDF/plugins/dm/callBack/edenwaters12.py"
 
 from plugins import *
 from plugins.utils import *
 
 
-@ILovePDF.on_callback_query(filters.regex("^nabilanavab"))
+@ILovePDF.on_callback_query(filters.regex("^edenwaters12"))
 async def __index__(bot, callbackQuery):
     try:
-        data = callbackQuery.data.split("|", 1)[1]  # "nabilanavab|"
+        data = callbackQuery.data.split("|", 1)[1]  # "edenwaters12|"
         lang_code = await util.getLang(callbackQuery.message.chat.id)
 
         if data.startswith("aio"):

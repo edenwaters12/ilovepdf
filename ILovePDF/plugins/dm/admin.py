@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/admin.py"
 
@@ -73,17 +73,17 @@ async def send(bot, message):
             text="⚙️ SEND MESSAGE: \n\n`Now, Select any Option Below.. `",
             reply_markup=InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton("📢 ↓ BROADCAST ↓ 📢", callback_data="nabilanavab")
+                    InlineKeyboardButton("📢 ↓ BROADCAST ↓ 📢", callback_data="edenwaters12")
                 ],[
                     InlineKeyboardButton("🔸 COPY 🔸", callback_data="send|copy|broad"),
                     InlineKeyboardButton("🔸 FORWARD 🔸", callback_data="send|forw|broad"),
                 ],[
-                    InlineKeyboardButton("👤 ↓ PM ↓ 👤", callback_data="nabilanavab"),
+                    InlineKeyboardButton("👤 ↓ PM ↓ 👤", callback_data="edenwaters12"),
                 ],[
                     InlineKeyboardButton("🔸 COPY 🔸", callback_data="send|copy|pm"),
                     InlineKeyboardButton("🔸 FORWARD 🔸", callback_data="send|forw|pm"),
                 ],[
-                    InlineKeyboardButton("📢 NoN SUBSCRIBERS 📢", callback_data="nabilanavab"),
+                    InlineKeyboardButton("📢 NoN SUBSCRIBERS 📢", callback_data="edenwaters12"),
                 ],[
                     InlineKeyboardButton("🔸 COPY 🔸", callback_data="send|copy|not"),
                     InlineKeyboardButton("🔸 FORWARD 🔸", callback_data="send|forw|not"),
@@ -154,8 +154,8 @@ async def _send(bot, callback_query):
             BROADCAST = not BROADCAST
             await stop(bot, callback_query.message)
             
-            if os.path.exists(f"./work/nabilanavab"):
-                for chat in os.listdir("./work/nabilanavab"):
+            if os.path.exists(f"./work/edenwaters12"):
+                for chat in os.listdir("./work/edenwaters12"):
                     if f"{chat}".startswith("-100"):
                         await bot.send_message(
                             chat_id=chat, text="Bot Stopped..\n__Some Server maintenance underway__ 😊"
@@ -166,7 +166,7 @@ async def _send(bot, callback_query):
                         )
                         ping_list.append(callback_query.from_user.id)
                 shutil.rmtree(f"./work")
-            os.makedirs("./work/nabilanavab")
+            os.makedirs("./work/edenwaters12")
 
             users = await db.get_all_users()
             broadcast_msg = callback_query.message.reply_to_message
@@ -178,7 +178,7 @@ async def _send(bot, callback_query):
                     [[
                         InlineKeyboardButton(
                             "🔸 asForward 🔸" if __ == "forw" else "🔸 asCopy 🔸",
-                            callback_data="nabilanavab",
+                            callback_data="edenwaters12",
                         )
                     ]]
                 ),
@@ -215,7 +215,7 @@ async def _send(bot, callback_query):
                                         f"🔸 asForward({done*100}/{total_users}) 🔸"
                                         if __ == "forw"
                                         else f"🔸 asCopy({done*100/total_users}) 🔸",
-                                        callback_data="nabilanavab"
+                                        callback_data="edenwaters12"
                                     )
                                 ]]
                             )
@@ -236,7 +236,7 @@ async def _send(bot, callback_query):
                     [[
                         InlineKeyboardButton(
                             "🔸 asForward 🔸" if __ == "forw" else "🔸 asCopy 🔸",
-                            callback_data="nabilanavab",)
+                            callback_data="edenwaters12",)
                     ]]
                 ),
             )

@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/url.py"
 
@@ -26,7 +26,7 @@ else:
     MAX_FILE_SIZE = False
 
 # url Example: https://t.me/channel/message
-#              https://t.me/nabilanavab/1
+#              https://t.me/edenwaters12/1
 links = ["https://telegram.dog/", "https://t.me/", "https://telegram.me/"]
 
 # just a function that returns all urls from a text message

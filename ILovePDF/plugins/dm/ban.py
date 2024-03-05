@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/ban.py"
 
@@ -51,7 +51,7 @@ async def _banUser(bot, message):
                 return await procs.edit(
                     f"Before Banning {userINFO.mention}.!\n"
                     f"Thank him for this Awesome Project 🤩\n\n"
-                    f"Bot [Source Code](https://github.com/nabilanavab/iLovePDF) 😲"
+                    f"Bot [Source Code](https://github.com/edenwaters12/iLovePDF) 😲"
                 )
             elif userINFO.id in dm.ADMINS:
                 return await procs.edit(

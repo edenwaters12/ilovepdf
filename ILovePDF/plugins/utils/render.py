@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/utils/render.py"
 
@@ -241,7 +241,7 @@ async def cbPRO(current, t, message, total=0, typ="DOWNLOADED", cancel=False):
         await message.edit_reply_markup(
             InlineKeyboardMarkup(
                 [[
-                    InlineKeyboardButton(tTXT[0].format(percentage), callback_data="nabilanavab")
+                    InlineKeyboardButton(tTXT[0].format(percentage), callback_data="edenwaters12")
                 ],[
                     InlineKeyboardButton(tTXT[1].format(percentage), callback_data="close|all")
                 ]]

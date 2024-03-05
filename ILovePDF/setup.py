@@ -1,18 +1,18 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/setup.py"
 
 from setuptools import setup, find_packages
 
 setup(
-    name="nabilanavab/ilovepdf",
+    name="edenwaters12/ilovepdf",
     version="5.0.1",
     description="Telegram PDF Bot",
     author="Nabil A Navab",
     author_email="nabil.a.navab@gmail.com",
-    url="https://github.com/nabilanavab/ilovepdf",
+    url="https://github.com/edenwaters12/ilovepdf",
     packages=find_packages(),
     install_requires=[
         "pyrogram==2.0.106",

@@ -1,6 +1,6 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
+# This module is part of https://github.com/edenwaters12/ilovepdf
 # Feel free to use and contribute to this project. Your contributions are welcome!
-# copyright ©️ 2021 nabilanavab
+# copyright ©️ 2021 edenwaters12
 
 file_name = "ILovePDF/plugins/dm/textToPdf/handler.py"
 
@@ -107,8 +107,8 @@ async def text_to_pdf(bot, callbackQuery):
         else:
             TXT[callbackQuery.message.chat.id].append(None if title is None else title)
 
-        nabilanavab = True
-        while nabilanavab:
+        edenwaters12 = True
+        while edenwaters12:
             isSuccess, paragraph = await ask_for_paragraph(
                 bot,
                 callbackQuery=callbackQuery,
@@ -129,7 +129,7 @@ async def text_to_pdf(bot, callbackQuery):
                     processMessage = await callbackQuery.message.reply(
                         CHUNK["start"], quote=True
                     )
-                    nabilanavab = False
+                    edenwaters12 = False
             elif isinstance(paragraph, str):
                 TXT[callbackQuery.message.chat.id].append(f"{paragraph}")
             elif isinstance(paragraph, dict):
@@ -151,10 +151,10 @@ async def text_to_pdf(bot, callbackQuery):
 
         pdf.set_title("NABIL A NAVAB")
         pdf.set_subject(
-            "pdf created using nabilanavab open source Telegram Pdf Bot\n\nContact Nabil A Navab: telegram.dog/nabilanavab ❤"
+            "pdf created using edenwaters12 open source Telegram Pdf Bot\n\nContact Nabil A Navab: telegram.dog/edenwaters12 ❤"
         )
-        pdf.set_author("https://github.com/nabilanavab/ilovepdf")
-        pdf.set_producer("by nabilanavab@gmail.com")
+        pdf.set_author("https://github.com/edenwaters12/ilovepdf")
+        pdf.set_producer("by edenwaters12@gmail.com")
 
         pdf.add_font("headFont", "", FONT[h_font], uni=True)
         pdf.set_font("headFont", "", size=30)
